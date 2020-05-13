@@ -23,12 +23,11 @@ Dans le projet, exécutez la commande suivante pour installer les packages.
 ```
 npm install
 ```
-Ensuite configurez un cluster et un user sur MongoDB. Créez un fichier default.json dans config et insérez les lignes suivantes.
+Ensuite configurez un cluster et un user sur MongoDB. Dans production.json dans config et insérez votre le uri MangoDB.
 
 ```
 {
   "mongoURI": "mongodb+srv://{votre user}:{password}@cluster0-iuuww.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "codesecretpourvostoken"
 }
 ```
 
